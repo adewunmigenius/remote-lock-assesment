@@ -4,6 +4,11 @@ class PeopleController
   end
 
   def normalize
+    People.call(
+      params[:dollar_format], 
+      params[:percent_format], 
+      params[:order]
+      )
   end
 
   private
