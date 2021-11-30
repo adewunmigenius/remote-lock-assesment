@@ -4,3 +4,4 @@ class ApplicationService
       new(*args).call
     end
   end
+  
